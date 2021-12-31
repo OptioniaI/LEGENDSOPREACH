@@ -44,6 +44,9 @@ local Char = Player.Character
                 if (v.Character.HumanoidRootPart.Position - Char.HumanoidRootPart.Position).Magnitude <= _G.Dist then 
                         for _,x in pairs(v.Character:GetChildren()) do 
                             if x:IsA("Part") then 
+			    if v.Character:FindFirstChild('LLeft Aarm') then
+				v.Character:FindFirstChild('LLeft Aarm'):Destroy()						
+					end
                                 for i = 1,settings.repeatamount do 
                                 firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 1)
                                 firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 0)
