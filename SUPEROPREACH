@@ -27,9 +27,9 @@ local Char = Player.Character
 local KeyBindHigh = "g"
 local IncreaseAmmount = 1 
 local KeyBindLow = "h"
-local settings = {repeatamount = 1} -- Best to keep it at 2 so it doesnt cause lag or FPS drops
+local settings = {repeatamount = 1}
 _G.Dist = 30
-_G.SphereActivated = true --// If set to true it'll 
+_G.SphereActivated = true
 setsimulationradius(math.huge,math.huge)
 
 
