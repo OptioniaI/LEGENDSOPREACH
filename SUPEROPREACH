@@ -49,8 +49,8 @@ local Char = Player.Character
 				v.Character:FindFirstChild('LLeft Aarm'):Destroy()						
 					end
                                 for i = 1,settings.repeatamount do 
-                                firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 1)
                                 firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 0)
+                                firetouchinterest(Char:FindFirstChildOfClass("Tool").Handle, x, 1)
                                 end
                             end
                         end
@@ -102,8 +102,8 @@ function Update()
         Sphere = Instance.new("SelectionSphere",game:GetService("CoreGui").RobloxGui.Modules)
         Sphere.Transparency = 0
         Sphere.SurfaceColor3 = Color3.new(0,0,0)
-        Sphere.Color3 = Color3.new(0,0,0)
-        Sphere.Transparency = 1 
+        Sphere.Color3 = Color3.new(255,255,255)
+        Sphere.Transparency = 0.4 
         Sphere.Name = "Sphere"
         Sphere.SurfaceTransparency = .8
         Sphere.Adornee = Part 
