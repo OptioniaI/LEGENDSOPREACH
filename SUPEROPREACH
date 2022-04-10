@@ -99,7 +99,7 @@ function Update()
         Sphere = Instance.new("SelectionSphere",game:GetService("CoreGui").RobloxGui.Modules)
         Sphere.Transparency = 0
         Sphere.SurfaceColor3 = Color3.new(0,0,0)
-        Sphere.Color3 = Color3.new(255,255,255)
+        Sphere.Color3 = Color3.fromHSV(tick()%5/5,1,1)
         Sphere.Transparency = 0.4 
         Sphere.Name = "Sphere"
         Sphere.SurfaceTransparency = .8
