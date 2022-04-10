@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Legend's Reach";
+	Title = "Legend's OP Reach";
 	Text = "Loaded!";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 10;
@@ -30,9 +30,6 @@ local KeyBindLow = "h"
 local settings = {repeatamount = 2}
 _G.Dist = 30
 _G.SphereActivated = true
-setsimulationradius(math.huge,math.huge)
-
-
 
 
 game:GetService("RunService").Stepped:Connect(function()
