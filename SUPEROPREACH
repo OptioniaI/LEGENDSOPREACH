@@ -28,7 +28,7 @@ local KeyBindHigh = "g"
 local IncreaseAmmount = 1 
 local KeyBindLow = "h"
 local settings = {repeatamount = 2}
-_G.Dist = 30
+_G.Dist = 15
 _G.SphereActivated = true
 
 
